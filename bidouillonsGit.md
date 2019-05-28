@@ -170,9 +170,9 @@ HEAD~N  est son Nième parent
 $ git tag nomme un commit
 
 #Annuler un jeu de commits, sans danger
-$ git revert
+$ git revert HEAD~
 
-créée un nouveau commit, on ne peut donc pas perdre accidentellement des données en utilisant revert. Ne convient pas pour effacer quelque chose de "critique" sur le serveur... on n'efface pas un *push*
+créé un nouveau commit, on ne peut donc pas perdre accidentellement des données en utilisant revert. Ne convient pas pour effacer quelque chose de "critique" sur le serveur... on n'efface pas un *push*
 
 
 Si git vous ennuie en ne voulant pas faire quelque chose tant vous n'avez pas *committé*, mettez les modifs effectuées depuis le dernier commit sous le tapis, utilisez:
