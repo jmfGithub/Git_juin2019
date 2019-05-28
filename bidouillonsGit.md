@@ -1,4 +1,4 @@
- Nous utiliserons la console et des commandes en lignes, sous Windows activer WSL (Windows Subsystem for Linux)
+ Nous utiliserons la console et des commandes en lignes, sous Windows(>=7) lancer PowerShell
 
 
 Logiciels utilisés:
@@ -18,7 +18,7 @@ revenons en arrière sur du texte.... *(parfois à plusieurs)*.
 
 Il nous faut naviguer entre des versions parfois éloignées, et retrouver facilement :
 	-la version qui introduit/termine une fonctionnalité, un bug
-	-la version qui a été livrée
+	-la version qui a été livrée à telle date
 	-la version qui a été modifiée à telle date, par untel.
 
 # Il faut pour cela utiliser un système de gestion de version !!!!!
@@ -38,7 +38,9 @@ $ ls -al .git
 
 $ git log
 $ git status
-$ git help [command] ou git command --help 
+$ git help [command] ou git command --help
+$ man git
+$ man giteveryday
 
 #Git manipule trois arborescences
 « Passé »   : La version d’origine sur laquelle on se base (Version)
@@ -72,7 +74,6 @@ $ git status
 "Modifications qui seront validées"  == PRÊTES pour la nouvelle version
 
 On peut avoir les 2 messages
-
 $ touch tata
 $ git status
 
