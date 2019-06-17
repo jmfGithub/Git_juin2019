@@ -1,5 +1,4 @@
- Nous utiliserons la console et des commandes en lignes, sous Windows(>=7) lancer PowerShell
-
+ Nous utiliserons la console et des commandes en lignes
 
 Logiciels utilisés:
 git
@@ -23,7 +22,7 @@ Il nous faut naviguer entre des versions parfois éloignées, et retrouver facil
 
 # Il faut pour cela utiliser un système de gestion de version !!!!!
 (cvs, svn, mercurial (hg), bazaar (bzr)....)
-Pas bien adapté aux fichiers autres que texte (basé sur diff)
+Bien adapté aux fichiers texte (basé sur diff), utilisable pour les autres
 Ne devrait pas être utilisé comme système de sauvegarde ou d'archivage .....
 
 #C'est parti pour les 1er pas
