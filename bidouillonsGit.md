@@ -6,6 +6,27 @@ git
 	git version 2.17.1
 éditeur de texte de votre choix
 
+
+INSTALLATION de Git:
+ -sous linux, via votre utilitaire de paquets préféré: apt, apt-get, yum
+.... (ex apt install git)
+ - sous mac,     https://git-scm.com/download/mac
+ - sous windows, https://gitforwindows.org/, installer en acceptant les
+valeurs proposées par défaut. Lancer git Bash.
+
+un test:
+$ git version doit répondre:
+git version <numéro de version >= 2.17>
+
+Si vous voulez prendre un peu d'avance:
+
+$ git clone https://github.com/jmfGithub/Git_juin2019.git
+
+doit créer un dossier Git_juin2019 contenant 2 fichiers: README.md et
+bidouillonsGit.md.
+
+
+
 Fortement inspiré de 
 https://gitlab.in2p3.fr/grasland/formation-git/tree/master
 Les 3 premières étapes (Intro Version et TP 1 et 2)
@@ -30,8 +51,10 @@ Ne devrait pas être utilisé comme système de sauvegarde ou d'archivage .....
 https://github.com/jmfGithub/Git_juin2019
 		::: Bouton vert "Clone or download" :::
 
-$ git clone https://github.com/jmfGithub/Git_juin2019.git
+$ git clone https://github.com/jmfGithub/Git_juin2019.git (si pas déjà fait)
+
 $ cd Git_juin2019
+$ git pull
 $ ls -al
 $ ls -al .git
 
